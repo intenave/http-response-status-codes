@@ -1,0 +1,42 @@
+{
+    "name": "intenave/http-response-status-codes",
+    "type": "library",
+    "homepage": "https://github.com/intenave/http-response-status-codes",
+    "description": "Package provides an enumeration of standard HTTP status codes along with convenient methods for working with them.",
+    "keywords": [
+        "intenave",
+        "http-response-status-codes"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Intenave\\HttpResponseStatusCodes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julio C. Hernández González",
+            "email": "jahdez183@gmail.com"
+        },
+        {
+            "name": "Yamir Acosta Lozada",
+            "email": "yamir.herblay@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "pestphp/pest": "^2.24"
+    }
+}
